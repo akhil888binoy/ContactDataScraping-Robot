@@ -168,6 +168,8 @@
                   <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1259" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="Email" />
+                      <Variable x:TypeArguments="x:String" Name="Name" />
+                      <Variable x:TypeArguments="x:String" Name="Post" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -175,12 +177,12 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="338,137" sap2010:WorkflowViewState.IdRef="NClick_7" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V3" />
-                    <uix:NGetText DisplayName="Get Text 'students at'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="a2fda3c2-304f-4ae5-8e56-a6a5a2859542" Version="V3">
+                    <uix:NGetText DisplayName="Get Text 'students at'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="a2fda3c2-304f-4ae5-8e56-a6a5a2859542" TextString="[Post]" Version="V3">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/in/akshat-gupta-b600681bb/" DesignTimeRectangle="143, 437, 478, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'students at'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' isleaf='1' parentid='ember36' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='text-body-medium break-words' isleaf='1' parentid='ember36' tag='DIV' /&gt;" Guid="93575803-0b60-4e54-9c89-7b55e91c4a86" InformativeScreenshot="ec6b684eee36b7d4877a80d3551d68d5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) Akshat gupta | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
                       </uix:NGetText.Target>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Akshat gupta'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="a2fda3c2-304f-4ae5-8e56-a6a5a2859542" Version="V3">
+                    <uix:NGetText DisplayName="Get Text 'Akshat gupta'" sap:VirtualizedContainerService.HintSize="338,157" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="a2fda3c2-304f-4ae5-8e56-a6a5a2859542" TextString="[Name]" Version="V3">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://www.linkedin.com/in/akshat-gupta-b600681bb/" DesignTimeRectangle="143, 406, 145, 32" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Akshat gupta'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='text-heading-xlarge inline t-24 v-align-middle break-words' /&gt;" Guid="27ad90b6-62b6-4c0c-9946-1fea155bd2e3" InformativeScreenshot="e9feb0ea915ae7aec2aee39e2fed286b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) Akshat gupta | LinkedIn' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive" />
                       </uix:NGetText.Target>
